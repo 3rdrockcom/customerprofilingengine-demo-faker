@@ -31,17 +31,6 @@ touch faker.db
 
 Output
 ```JSON
-{"ID":1,"Email":"james.taylor@example.com","Gender":"male","FirstName":"James","LastName":"Taylor"}
-```
-
-
-#### Get a Customer's Information
-```
-/customer/1/info
-```
-
-Output
-```JSON
 [
   {
     "ID": 1,
@@ -58,6 +47,23 @@ Output
     "LastName": "Johnson"
   }
 ]
+```
+
+
+#### Get a Customer's Information
+```
+/customer/1/info
+```
+
+Output
+```JSON
+{
+  "ID": 1,
+  "Email": "james.taylor@example.com",
+  "Gender": "male",
+  "FirstName": "James",
+  "LastName": "Taylor"
+}
 ```
 
 
